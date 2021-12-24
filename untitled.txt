@@ -1,0 +1,13 @@
+
+original weight = save/vgg9_112_reg.pt
+cfg = [[64-16], [128-32], [256-64, 256-64], [512-128, 512-128], [512-128, 512]]
+pruned weight = save/pruned.pt
+
+lr = 0.0001
+
+Training complete!
+Best f1 score 0.7762 at epoch 31
+
+---
+
+27 44
